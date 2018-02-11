@@ -12,13 +12,12 @@ body {
 #center_main{
     display: flex;
     margin-bottom: 2%;
+    align-items: center;
+    justify-content: center;
+
 }
 
-.column1, .column2 {
-    width: 20%;
-}
-
-.column1{
+.column1, .column2{
     flex: 1;
 }
 
@@ -26,22 +25,21 @@ body {
     margin-top: 10%;
 }
 
-.column2{
-    flex: 1;
+#left, #right, #bot1, #bot2{
+    width: 78%;
+    margin-left: 11%;
 }
 
 #pic {
     background-color:  #33242b;
     border-bottom: solid 4px #261421;
-    margin-left: 1%;
-    margin-right: 1%;
+
     flex: 1;
 }
 
 
 img {
     width: 100%;
-    height: 100%;
 }
 
 ul {
