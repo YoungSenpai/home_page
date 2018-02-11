@@ -1,93 +1,76 @@
-.container_center {
-    width: 60%;
-    margin: 0 auto;
-    display: block;
-}
+/*TOP*/
 
-.center, aside {
-    background-color:  #33242b;
-    border-top: solid 1px #b6879e;
-    border-bottom: solid 4px #261421;
+body {
     font-family: 'VT323', monospace;
     font-size: 18px;
-    color: white;
 }
 
-.center {
-    margin-top: 4%;
-    padding: 1%;
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 5%;
+.container {
+    margin-top: 5%;
 }
 
-#text {
-    padding: 2%;
+#center_main{
+    display: flex;
+    margin-bottom: 2%;
 }
 
-.ch {
-    text-align: center;
-    padding: 2%;
-    background-color:  #33242b;
-    border-top: solid 1px #b6879e;
-    border-bottom: solid 4px #261421;
-    font-family: 'VT323', monospace;
-    font-size: 18px;
-    color: white;
+.column1, .column2 {
+    width: 20%;
+}
+
+.column1{
+    flex: 1;
+}
+
+#bot1, #bot2{
+    margin-top: 10%;
+}
+
+.column2{
+    flex: 1;
 }
 
 #pic {
     background-color:  #33242b;
-    border-top: solid 1px #b6879e;
     border-bottom: solid 4px #261421;
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    flex: 1;
 }
 
-#left, #right {
-    margin-top: 2%;
-    width: 12%;
-    color: white;
-}
-aside {
-    text-align: center;
-    padding: 1%;
-}
 
-#bot1, #bot2 {
-    margin-top: 10%;
-    width: 12%;
-    color: white;
+img {
+    width: 100%;
+    height: 100%;
 }
 
 ul {
     list-style-type: none;
 }
 
-a::before {
+aside {
+    text-align: center;
+    padding: 1%;
+    background-color:  #33242b;
+    border-bottom: solid 4px #261421;
+}
+/*BOTTOM*/
+.center, .ch{
+    background-color:  #33242b;
+    border-bottom: solid 4px #261421;
     color: white;
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
 }
 
-#left {
-    float: left;
-    margin-left: 5%;
-    display: inline;
+.ch{
+    width: 50%;
+    padding: 2%;
 }
 
-#right {
-    float: right;
-    margin-right: 5%;
-    display: inline;
-}
-
-#bot1 {
-    float: left;
-    margin-left: -14%;
-}
-
-#bot2 {
-    float: right;
-    margin-right: -14%;
+.center {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    padding-top: 0.1%;
 }
